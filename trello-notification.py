@@ -1,6 +1,12 @@
 from datetime import datetime, date, time
 from client import client
 
+# from trello import TrelloClient
+# client = TrelloClient(
+#     api_key='your-API-key',
+#     token='your-token'
+# )
+
 
 today = datetime(2022, 1, 26, 16, 0, 0)
 
