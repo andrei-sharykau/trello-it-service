@@ -17,7 +17,7 @@ chatId = client.TELEGRAM_CHATID
 last_date = datetime(2022, 1, 26, 16, 0, 0)
 
 # message to Telegram
-message = "**Есть работа!!!**\nпроверьте доску **{}**\n{}\n{}"
+message = "**Есть работа!!!**\nпроверьте доску ***{}***\n{}\n{}"
 
 # all boards in Trello
 all_boards = client.list_boards()
