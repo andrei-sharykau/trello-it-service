@@ -1,7 +1,8 @@
 # TRELLO NOTIFICATION
 Script for checking new cards in Trello and sending a notification to Telegram. 
 
-* trello-notification.py - executable script 
+* trello-notification.py - executable script
+* client.py - your settings
 * requirements.txt - modules used python
 * Dockerfile - docker image build file 
 
@@ -20,7 +21,7 @@ Token for your bot
 
 
 **exmple:**
-'''
+```
 # API Trello
 TRELLO_API_KEY='your-trello-api-key'
 TRELLO_TOKEN='your-trello-token'
@@ -34,4 +35,4 @@ CHECK_TIMEOUT=15
 
 # message to Telegram
 MESSAGE = "**Got a job!!!**\ncheck the board **{}**\n{}\n{}"
-'''
+```
