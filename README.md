@@ -1,4 +1,6 @@
 # TRELLO NOTIFICATION
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fandrei-sharykau%2Ftrello-it-service.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fandrei-sharykau%2Ftrello-it-service?ref=badge_shield)
+
 Script for checking new cards in Trello and sending a notification to Telegram. 
 
 * trello-notification.py - executable script
@@ -36,3 +38,6 @@ CHECK_TIMEOUT=15
 # message to Telegram
 MESSAGE = "**Got a job!!!**\ncheck the board **{}**\n{}\n{}"
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fandrei-sharykau%2Ftrello-it-service.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fandrei-sharykau%2Ftrello-it-service?ref=badge_large)
